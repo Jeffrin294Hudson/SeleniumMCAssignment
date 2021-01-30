@@ -18,6 +18,7 @@ public class TestOne extends BaseTest
 		
 		
 		js = ((JavascriptExecutor) driver);
+		
 			js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			
